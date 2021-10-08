@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+
+}
+
+header {
+    padding: 33px 27px;
+    position: absolute;
+    top: 17px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gloud {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.gloud::before {
+    content: url("../images/Vector.svg");
+    margin-right: 10px;
+}
+
+.gloud:hover {
+    text-decoration: underline black;
+}
+
+
+.header-nav {
+
+}
+
+.header-ul {
+    list-style: none;
+    display: flex;
+}
+
+.header-li {
+    margin-right: 25px;
+}
+
+.header-li:last-child {
+    margin-right: 0;
+}
+
+.header-link {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+}
+
+.header-link:hover {
+    font-weight: bold;
+    color: darkgrey;
+}
+
+.button-box {
+    display: flex;
+    align-items: center;
+}
+
+.button-login {
+    cursor: pointer;
+    padding: 11px 12px;
+    background: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+#header-label {
+    cursor: pointer;
+    appearance: none;
+    padding: 11px 12px;
+    background:  url("../images/venchick.jpg") ;
+    margin-right: 18px;
+    width: 56px;
+    border: none;
+    color: white;
+}
+
+
+#header-label:focus {
+    color: black;
+    background: #ED4C5C;
+}
+
+#header-label:hover {
+    box-shadow: 0 0 3px 3px navajowhite;
+    outline: 1px solid white;
+    background: #ED4C5C;
+
+}
+
+.hero {
+    padding: 257px 0 0;
+    height: 100vh;
+    min-height: 540px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto 39px;
+    background:  url("../images/venchick.jpg") center/cover;
+}
+
+
+.hero-h1 {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 39px;
+
+
+}
+
+.hero-text {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin: 0 auto 39px;
+    max-width: 540px;
+
+}
+
+.hero-button {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #ED4C5C;
+    padding: 16px 52px;
+    border-radius: 6px;
+    border: 1px solid white;
+    background: #FFFFFF;
+}
+
+.hero-button:hover {
+    background: lightgray;
+    box-shadow: 0 0 3px 3px blue;
+}
+
+.hero-button:focus {
+    background: brown;
+    color: black;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 10px;
+}
+
+.overiew {
+    padding: 95px 0 0;
+
+}
+
+.overiew-title {
+    max-width: 445px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.overiew-text {
+    max-width: 445px;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.overiew-link{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #ED4C5C;
+}
+.vide-box{
+    object-fit: cover;
+    height: 120%;
+    width: 120%;
+    position: relative;
+    border-radius: 15px;
+}
+.overiew-box{
+    padding: 45px 0;
+}
+.overiew-video{
+    width: 445px;
+    height: 310px;
+    position: absolute;
+    z-index: 1;
+
+
+}
+.play-button {
+    position: absolute;
+    top: 132px;
+    left: -32px;
+    z-index: 2;
+}
+
